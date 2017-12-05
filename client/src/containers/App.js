@@ -8,11 +8,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Trend reports</h1>
+          <h1 className="App-title">Trend reports @ Kiwi</h1>
           <nav>
             <ul>
-              <li><Link to='/'>Popular Devices</Link></li>
-              <li><Link to='/devices'>Devices Overview</Link></li>
+              <li><Link to='/'>#1 View: Popular Devices</Link></li>
+              <li><Link to='/devices'>#2 View: Devices Overview</Link></li>
             </ul>
           </nav>
         </header>

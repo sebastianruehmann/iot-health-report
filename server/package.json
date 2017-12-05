@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^2.0.0",
+    "moment": "^2.19.3",
+    "moment-range": "^3.0.3",
+    "restify": "^6.3.4",
+    "restify-await-promise": "^1.0.2",
+    "restify-cors-middleware": "^1.0.1",
+    "restify-errors": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "start": "node app/app.js",
+    "start:dev": "nodemon app/app.js"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "iot-health-report",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/app/app.js && cd client && npm start"
+  }
+}
